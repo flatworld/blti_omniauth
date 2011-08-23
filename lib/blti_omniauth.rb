@@ -34,7 +34,7 @@ module OmniAuth
           @uid = Base64.decode64(request.params['user_id'])
           @avatar = Base64.decode64(request.params['user_image'])
           @username = Base64.decode64(request.params['custom_fullname'])
-          @nickname = Base64.decode64(request.params['lis_person_sourcedid'].split(':').last)
+          @nickname = Base64.decode64(request.params['lis_person_sourcedid']).split(':').last
           puts "BLTI: valid! uid=#{@uid}, avatar=#{@avatar}, username=#{@username}, nickname=#{@nickname}"
           # OmniAuth takes care of the rest
           super
