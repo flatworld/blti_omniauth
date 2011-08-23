@@ -9,7 +9,7 @@ The work done is blti_omniauth is the callback phase in omniauth. That is, creat
 
 Add to your Gemfile the lines
 
-gem 'blti_omniauth', :git => "http://github.com/xaracil/blti_omniauth.git"
+gem 'blti_omniauth'
 
 If you're using Multiauth (http://github.com/dcu/multiauth), a forked version is required. In your Gemfile replace multiauth's line by
 
