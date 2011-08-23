@@ -1,6 +1,19 @@
 = blti_omniauth
 
-Description goes here.
+blti_omniauth is a omniauth strategy for Basic LTI (http://imsglobal.org/lti/) consumers. 
+
+BLTI consumers are authenticated in consumer side (normally a LMS), so request to blti_omniauth are already authenticated. 
+The work done is blti_omniauth is the callback phase in omniauth. That is, create a local user with data given by BLTI context.
+
+== Usage
+
+Add to your Gemfile the lines
+
+gem 'blti_omniauth', :git => "http://github.com/xaracil/blti_omniauth.git"
+
+If you're using Multiauth (http://github.com/dcu/multiauth), a forked version is required. In your Gemfile replace multiauth's line by
+
+gem 'multiauth', :git => "http://github.com/xaracil/multiauth.git"
 
 == Contributing to blti_omniauth
  

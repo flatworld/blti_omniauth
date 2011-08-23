@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "blti_omniauth"
   gem.homepage = "http://github.com/xaracil/blti_omniauth"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Omniauth strategy for blti consumers}
+  gem.description = %Q{Omniauth strategy for blti consumers}
   gem.email = "xaracil@uoc.edu"
   gem.authors = ["Xavi Aracil"]
   # dependencies defined in Gemfile
