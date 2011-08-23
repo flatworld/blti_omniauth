@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "blti_omniauth.gemspec",
     "lib/blti_omniauth.rb",
     "test/helper.rb",
     "test/test_blti_omniauth.rb"
