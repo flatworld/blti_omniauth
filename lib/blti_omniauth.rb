@@ -1,6 +1,6 @@
-require 'omniauth/core'
-require 'oauth'
-require 'oauth/request_proxy/rack_request'
+require 'omniauth-oauth'
+#require 'oauth'
+#require 'oauth/request_proxy/rack_request'
 require 'base64'
 
 module OmniAuth
