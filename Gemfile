@@ -2,7 +2,7 @@ source "http://rubygems.org"
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
-gem 'omniauth'
+gem 'omniauth', "~>1.1.3"
 gem "oa-oauth",  :require => "omniauth/oauth"
 
 # Add dependencies to develop your gem here.
