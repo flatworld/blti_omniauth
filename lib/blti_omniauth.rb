@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'omniauth-oauth'
 #require 'oauth'
 #require 'oauth/request_proxy/rack_request'
@@ -8,10 +9,10 @@ module OmniAuth
     class Blti
       include OmniAuth::Strategy
       
-      def initialize(app, id, token, options={})
+      def initialize(app, id, token, options={}, &block)
         @key = id
         @secret = token
-        super(app, :blti, options)
+        super(app, id, token, options, &block)
       end
 
       # redirect to OmniAuth's callback (request is already authenticated)
